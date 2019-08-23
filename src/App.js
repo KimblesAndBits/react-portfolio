@@ -14,10 +14,9 @@ class App extends React.Component {
     currentPage: "/"
   };
 
-  handlePageChange = (page, bg = "#E1DDDB") => {
+  handlePageChange = page => {
     this.setState({
-      currentPage: page,
-      background: bg
+      currentPage: page
     })
   };
 
