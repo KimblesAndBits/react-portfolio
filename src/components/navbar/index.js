@@ -1,9 +1,12 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
+import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
 import PersonIcon from '@material-ui/icons/Person';
+import WorkIcon from '@material-ui/icons/Work';
+import ViewColumnIcon from '@material-ui/icons/ViewColumn';
+import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 import {
     Drawer,
     IconButton,
@@ -42,19 +45,31 @@ export default function TemporaryDrawer(props) {
             onKeyDown={toggleDrawer(menu, false)}
         >
             <List>
-                {
-                    <ListItem button onClick={() => props.handlePageChange("About")}>
-                        <ListItemIcon><PersonIcon /></ListItemIcon>
-                    </ListItem>
-                }
+                <ListItem button onClick={() => props.handlePageChange("About")}>
+                    <ListItemIcon><PersonIcon /></ListItemIcon>
+                </ListItem>
+                <ListItem button onClick={() => props.handlePageChange("Portfolio")}>
+                    <ListItemIcon><WorkIcon /></ListItemIcon>
+                </ListItem>
+                <ListItem button onClick={() => props.handlePageChange("Contact")}>
+                    <ListItemIcon><PermContactCalendarIcon /></ListItemIcon>
+                </ListItem>
             </List>
             <Divider />
             <List>
-                {['All mail', 'Trash', 'Spam'].map(index => (
-                    <ListItem button key={index}>
-                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                    </ListItem>
-                ))}
+                <ListItem button onClick={() => props.handlePageChange("MainMenu")}>
+                    <ListItemIcon><ViewColumnIcon /></ListItemIcon>
+                </ListItem>
+                <ListItem button onClick={() => props.handlePageChange("/")}>
+                    <ListItemIcon><HomeIcon /></ListItemIcon>
+                </ListItem>
+                <ListItem button>
+                    <ListItemIcon>
+                        <a href="mailto: dannykimble@me.com" style={{ color: "inherit" }}>
+                            <MailIcon />
+                        </a>
+                    </ListItemIcon>
+                </ListItem>
             </List>
         </div>
     );

@@ -5,7 +5,11 @@ import { Grid, Typography } from "@material-ui/core";
 const useStyles = makeStyles({
     nameButton: {
         background: "transparent",
-        border: "none"
+        border: "none",
+        color: "white"
+    },
+    whiteText: {
+        color: "white"
     }
 });
 
@@ -22,11 +26,6 @@ function LandingPage(props) {
         >
             <Grid item xl={12} size="large">
                 <Typography
-                    style={{
-                        color: "white",
-                        textShadowColor: "white",
-                        textShadowRadius: 20,
-                    }}
                     variant="h1"
                     component="button"
                     className={classes.nameButton}
@@ -34,10 +33,10 @@ function LandingPage(props) {
                     Danny Kimble
                 </Typography>
             </Grid>
-            <Grid item xl={12} style={{ color: "white" }}>
+            <Grid item xl={12} className={classes.whiteText}>
                 <p>Full-Stack Developer</p>
             </Grid>
-            <Grid item xl={12} style={{ color: "white" }}>
+            <Grid item xl={12} className={classes.whiteText}>
                 <p>Click my name</p>
             </Grid>
         </Grid >
