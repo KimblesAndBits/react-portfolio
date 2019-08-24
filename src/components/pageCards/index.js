@@ -32,7 +32,8 @@ function PageCards({ image, name, handlePageChange, time }) {
                     alt={name}
                     height="auto"
                     image={image}
-                    title={name} />
+                    title={name}
+                    boxShadow = {3} />
             </Zoom>
             <Zoom in={zoom} style={{ transitionDelay: time + 750}}>
                 <p className={classes.pageText}>{name}</p>

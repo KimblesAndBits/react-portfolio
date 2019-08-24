@@ -13,7 +13,8 @@ import {
     List,
     Divider,
     ListItem,
-    ListItemIcon
+    ListItemIcon,
+    Tooltip
 } from '@material-ui/core';
 
 const useStyles = makeStyles({
@@ -46,29 +47,41 @@ export default function TemporaryDrawer(props) {
         >
             <List>
                 <ListItem button onClick={() => props.handlePageChange("About")}>
-                    <ListItemIcon><PersonIcon /></ListItemIcon>
+                    <Tooltip title="About" placement="right">
+                        <ListItemIcon><PersonIcon /></ListItemIcon>
+                    </Tooltip>
                 </ListItem>
                 <ListItem button onClick={() => props.handlePageChange("Portfolio")}>
-                    <ListItemIcon><WorkIcon /></ListItemIcon>
+                    <Tooltip title="Portfolio" placement="right">
+                        <ListItemIcon><WorkIcon /></ListItemIcon>
+                    </Tooltip>
                 </ListItem>
                 <ListItem button onClick={() => props.handlePageChange("Contact")}>
-                    <ListItemIcon><PermContactCalendarIcon /></ListItemIcon>
+                    <Tooltip title="Contact" placement="right">
+                        <ListItemIcon><PermContactCalendarIcon /></ListItemIcon>
+                    </Tooltip>
                 </ListItem>
             </List>
             <Divider />
             <List>
                 <ListItem button onClick={() => props.handlePageChange("MainMenu")}>
-                    <ListItemIcon><ViewColumnIcon /></ListItemIcon>
+                    <Tooltip title="Main Menu" placement="right">
+                        <ListItemIcon><ViewColumnIcon /></ListItemIcon>
+                    </Tooltip>
                 </ListItem>
                 <ListItem button onClick={() => props.handlePageChange("/")}>
-                    <ListItemIcon><HomeIcon /></ListItemIcon>
+                    <Tooltip title="Home" placement="right">
+                        <ListItemIcon><HomeIcon /></ListItemIcon>
+                    </Tooltip>
                 </ListItem>
                 <ListItem button>
-                    <ListItemIcon>
-                        <a href="mailto: dannykimble@me.com" style={{ color: "inherit" }}>
-                            <MailIcon />
-                        </a>
-                    </ListItemIcon>
+                    <Tooltip title="Email Me" placement="right">
+                        <ListItemIcon>
+                            <a href="mailto: dannykimble@me.com" style={{ color: "inherit" }}>
+                                <MailIcon />
+                            </a>
+                        </ListItemIcon>
+                    </Tooltip>
                 </ListItem>
             </List>
         </div>

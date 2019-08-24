@@ -8,7 +8,7 @@ import MainMenu from "./pages/MainMenu";
 import LandingPage from "./pages/LandingPage";
 import LandingPageBg from "./components/landingPageBg";
 import TemporaryDrawer from './components/navbar';
-import { Container } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
 
 class App extends React.Component {
 
@@ -59,10 +59,17 @@ class App extends React.Component {
             )
             : (
               <span>
-                <Container className="App" style={{ minHeight: '100vh' }}>
+                <Container className="App" style={{ height: '100vh' }}>
                   <TemporaryDrawer handlePageChange={this.handlePageChange} />
-                  <Wrapper >
+                  <Wrapper style={{ height: '87%', minHeight: "450px" }}>
                     {this.renderPage()}
+                    <Grid
+                      container
+                      direction="row"
+                      justify="center"
+                      alignItems="flex-end">
+                      <Grid item><p>Danny Kimble &copy;</p></Grid>
+                    </Grid>
                   </Wrapper>
                 </Container>
               </span>
