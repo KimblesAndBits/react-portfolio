@@ -59,7 +59,7 @@ class App extends React.Component {
             )
             : (
               <span>
-                <Container className="App" style={{ height: '100vh' }}>
+                <Container className="App" style={{ minHeight: '100vh' }}>
                   <TemporaryDrawer handlePageChange={this.handlePageChange} />
                   <Wrapper style={{ height: '87%', minHeight: "450px" }}>
                     {this.renderPage()}
