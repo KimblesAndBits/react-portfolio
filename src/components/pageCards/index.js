@@ -7,11 +7,11 @@ const useStyles = makeStyles({
         borderRadius: 45
     },
     pageText: {
-        background: "rgba(90, 105, 125, 0.5)",
+        background: "rgba(38, 38, 38, 0.5)",
         borderRadius: 5,
         position: "relative",
         bottom: "125px",
-        color: "white",
+        color: "#f5f5f5",
         fontSize: "2rem",
         width: "auto",
         textAlign: "center"
@@ -32,8 +32,7 @@ function PageCards({ image, name, handlePageChange, time }) {
                     alt={name}
                     height="auto"
                     image={image}
-                    title={name}
-                    boxShadow = {3} />
+                    title={name} />
             </Zoom>
             <Zoom in={zoom} style={{ transitionDelay: time + 750}}>
                 <p className={classes.pageText}>{name}</p>

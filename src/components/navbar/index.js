@@ -20,7 +20,9 @@ import {
 const useStyles = makeStyles({
     list: {
         width: 55,
-
+        background: "#dcdcdc",
+        color: "#262626",
+        height: "100%"
     }
 });
 
@@ -90,12 +92,12 @@ export default function TemporaryDrawer(props) {
     return (
         <div>
             <IconButton
-                color="inherit"
+                color="#f5f5f5"
                 aria-label="open drawer"
                 onClick={toggleDrawer('menu', true)}
                 edge="start"
             >
-                <MenuIcon />
+                <MenuIcon style={{color: "#f5f5f5"}}/>
             </IconButton>
             <Drawer open={state.menu} onClose={toggleDrawer('menu', false)}>
                 {menuList('menu')}

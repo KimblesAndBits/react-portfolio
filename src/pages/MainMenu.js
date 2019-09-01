@@ -10,11 +10,12 @@ function MainMenu(props) {
                 handlePageChange={props.handlePageChange}
                 time={500} />
             <PageCards name="Portfolio"
-                image={require("../images/me.jpg")}
+                image={require("../images/portfolioMenu.png")}
                 handlePageChange={props.handlePageChange}
                 time={1000} />
             <PageCards name="Contact"
-                image={require("../images/me.jpg")}
+                image={require("../images/elena-koychevka-phone.png")}
+                alt="Photo by Elena Koycheva on Unsplash"
                 handlePageChange={props.handlePageChange}
                 time={1500} />
         </Grid>

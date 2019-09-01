@@ -9,7 +9,7 @@ import {
 export default function PortfolioCard(props) {
     return (
         <Grid item md={4}>
-            <Paper style={{ textAlign: "center", height: "350px" }}>
+            <Paper style={{ textAlign: "center", height: "350px", background: "#262626" }}>
                 <CardMedia
                     component="img"
                     alt={props.name}
@@ -17,17 +17,17 @@ export default function PortfolioCard(props) {
                     image={props.image}
                     title={props.name} />
                 <span>&emsp;</span>
-                <Typography variant="h5" component="p">
+                <Typography variant="h5" component="p" style={{ color: "#f5f5f5" }}>
                     {props.name}
                 </Typography>
-                <Typography component="p">
+                <Typography component="p" style={{ color: "#dcdcdc" }}>
                     {props.description}
                 </Typography>
-                <Typography component="a" href={props.git} target="_blank">
+                <Typography component="a" href={props.git} target="_blank" style={{ color: "#dcdcdc" }}>
                     <i class="fab fa-github-square"></i>
                 </Typography>
                 <span>&emsp;</span>
-                <Typography component="a" href={props.link} target="_blank">
+                <Typography component="a" href={props.link} target="_blank" style={{ color: "#dcdcdc" }}>
                     <i class="far fa-window-maximize"></i>
                 </Typography>
             </Paper>

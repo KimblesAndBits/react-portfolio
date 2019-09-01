@@ -61,14 +61,14 @@ class App extends React.Component {
               <span>
                 <Container className="App" style={{ minHeight: '100vh' }}>
                   <TemporaryDrawer handlePageChange={this.handlePageChange} />
-                  <Wrapper style={{ height: '87%', minHeight: "450px" }}>
+                  <Wrapper style={{ height: '87vh', minHeight: "450px" }}>
                     {this.renderPage()}
                     <Grid
                       container
                       direction="row"
                       justify="center"
                       alignItems="flex-end">
-                      <Grid item><p>Danny Kimble &copy;</p></Grid>
+                      <Grid item style={{color: "#f5f5f5"}}><p>Danny Kimble &copy;</p></Grid>
                     </Grid>
                   </Wrapper>
                 </Container>

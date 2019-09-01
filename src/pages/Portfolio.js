@@ -11,13 +11,7 @@ export default function Portfolio() {
             justify="space-evenly"
             alignItems="center"
             spacing={3}>
-            {projects.map(project => <PortfolioCard
-                key={project.key}
-                name={project.name}
-                description={project.description}
-                image={project.image}
-                git={project.git}
-                link={project.link} />)}
+            {projects.map(project => <PortfolioCard {...project} />)}
         </Grid>
     )
 }
