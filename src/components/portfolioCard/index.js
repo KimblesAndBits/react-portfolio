@@ -9,7 +9,7 @@ import {
 export default function PortfolioCard(props) {
     return (
         <Grid item md={4}>
-            <Paper style={{ textAlign: "center", height: "350px", background: "#262626" }}>
+            <Paper style={{ textAlign: "center", height: "375px", background: "#262626" }}>
                 <CardMedia
                     component="img"
                     alt={props.name}
@@ -24,11 +24,11 @@ export default function PortfolioCard(props) {
                     {props.description}
                 </Typography>
                 <Typography component="a" href={props.git} target="_blank" style={{ color: "#dcdcdc" }}>
-                    <i class="fab fa-github-square"></i>
+                    <i className="fab fa-github-square"></i>
                 </Typography>
                 <span>&emsp;</span>
                 <Typography component="a" href={props.link} target="_blank" style={{ color: "#dcdcdc" }}>
-                    <i class="far fa-window-maximize"></i>
+                    <i className="far fa-window-maximize"></i>
                 </Typography>
             </Paper>
         </Grid>

@@ -92,7 +92,6 @@ export default function TemporaryDrawer(props) {
     return (
         <div>
             <IconButton
-                color="#f5f5f5"
                 aria-label="open drawer"
                 onClick={toggleDrawer('menu', true)}
                 edge="start"
