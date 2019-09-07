@@ -9,7 +9,7 @@ import {
 export default function PortfolioCard(props) {
     return (
         <Grid item md={4}>
-            <Paper style={{ textAlign: "center", height: "375px", background: "#262626" }}>
+            <Paper style={{ textAlign: "center", minHeight: "375px", background: "#262626" }}>
                 <CardMedia
                     component="img"
                     alt={props.name}

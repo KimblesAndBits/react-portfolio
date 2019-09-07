@@ -54,19 +54,19 @@ const Contact = () => {
                         </Typography>
                         <Typography className={classes.myLink} component="p">
                             Linkedin:&ensp;
-                            <Typography component="a" href="https://www.linkedin.com/in/danny-kimble-76b489183/" target="_blank">
+                            <Typography component="a" id="my-link" href="https://www.linkedin.com/in/danny-kimble-76b489183/" target="_blank">
                                 <i style={{fontSize: "1.5rem"}} className="fab fa-linkedin"></i>
                             </Typography>
                         </Typography>
                         <Typography className={classes.myLink} component="p">
                             GitHub:&ensp;
-                            <Typography component="a" href="https://github.com/KimblesAndBits" target="_blank">
+                            <Typography component="a" id="my-link" href="https://github.com/KimblesAndBits" target="_blank">
                                 <i style={{fontSize: "1.5rem"}} className="fab fa-github"></i>
                             </Typography>
                         </Typography>
                         <Typography className={classes.myLink} component="p">
                             Resume:&ensp;
-                            <Typography component="a" href="https://docs.google.com/document/d/1poaR7-oevSE2yLrRXEmWJq2nddTqh7wP_bkQL7AsEKI/edit?usp=sharing" target="_blank">
+                            <Typography component="a" id="my-link" href="https://docs.google.com/document/d/1poaR7-oevSE2yLrRXEmWJq2nddTqh7wP_bkQL7AsEKI/edit?usp=sharing" target="_blank">
                                 <i style={{fontSize: "1.5rem"}} className="fas fa-file"></i>
                             </Typography>
                         </Typography>

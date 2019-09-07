@@ -79,7 +79,7 @@ export default function TemporaryDrawer(props) {
                 <ListItem button>
                     <Tooltip title="Email Me" placement="right">
                         <ListItemIcon>
-                            <a href="mailto: dannykimble@me.com" style={{ color: "inherit" }}>
+                            <a id="email" href="mailto: dannykimble@me.com" style={{ color: "inherit" }}>
                                 <MailIcon />
                             </a>
                         </ListItemIcon>

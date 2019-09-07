@@ -3,6 +3,22 @@ body {
 
 }
 
+#email {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+#email:hover {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+#email:visited {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
+#email:active {
+    color: rgba(0, 0, 0, 0.54) !important;
+}
+
 a {
     color: rgb(200, 200, 200) !important;
 }
