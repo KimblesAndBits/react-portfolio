@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6ce8a2e9.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.5fc599d7.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.5fc599d7.chunk.js.map",
+    "runtime~main.js": "/react-portfolio/static/js/runtime~main.3f94e198.js",
+    "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.3f94e198.js.map",
+    "static/js/2.2d9c8fc0.chunk.js": "/react-portfolio/static/js/2.2d9c8fc0.chunk.js",
+    "static/js/2.2d9c8fc0.chunk.js.map": "/react-portfolio/static/js/2.2d9c8fc0.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.4762ba9687e722430ed1f63c6ffbacc7.js": "/react-portfolio/precache-manifest.4762ba9687e722430ed1f63c6ffbacc7.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.6ce8a2e9.chunk.css.map": "/react-portfolio/static/css/main.6ce8a2e9.chunk.css.map",
+    "static/media/G6.png": "/react-portfolio/static/media/G6.723ba49b.png",
+    "static/media/Star-Wars-Rpg.png": "/react-portfolio/static/media/Star-Wars-Rpg.cea0a3f8.png",
+    "static/media/and-chill.png": "/react-portfolio/static/media/and-chill.0463567e.png",
+    "static/media/elena-koychevka-phone.png": "/react-portfolio/static/media/elena-koychevka-phone.a7685bf1.png",
+    "static/media/friendfinder.png": "/react-portfolio/static/media/friendfinder.a35fcad6.png",
+    "static/media/landingPageBackground.png": "/react-portfolio/static/media/landingPageBackground.dabf4f87.png",
+    "static/media/me.jpg": "/react-portfolio/static/media/me.1f1f23ae.jpg",
+    "static/media/portfolioMenu.png": "/react-portfolio/static/media/portfolioMenu.4e191250.png",
+    "static/media/rps.png": "/react-portfolio/static/media/rps.e4a0b5dd.png",
+    "static/media/trivia.png": "/react-portfolio/static/media/trivia.0b223c0f.png"
+  }
+}
