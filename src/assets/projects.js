@@ -10,7 +10,7 @@ const projects = [
     {
         "key": 2,
         "name": "Star Wars RPG",
-        "description": "A quick and easy Star Wars RPG. Choose a character and fight the other three. Pick you opponents carefully to guarantee a win!",
+        "description": "A quick and easy Star Wars RPG. Choose a character and fight the other three. Pick your opponents carefully to guarantee a win!",
         "image": require("../images/Star-Wars-Rpg.png"),
         "git": "https://github.com/KimblesAndBits/unit-4-game",
         "link": "https://kimblesandbits.github.io/unit-4-game/index.html"
