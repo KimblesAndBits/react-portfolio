@@ -4,7 +4,7 @@ import PageCards from "../components/pageCards";
 
 function MainMenu(props) {
     return (
-        <Grid container spacing={4}>
+        <Grid container spacing={2}>
             <PageCards name="About"
                 image={require("../images/me.jpg")}
                 handlePageChange={props.handlePageChange}

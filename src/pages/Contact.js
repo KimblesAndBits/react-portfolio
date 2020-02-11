@@ -32,9 +32,9 @@ const Contact = () => {
                 direction="row"
                 justify="space-evenly"
                 alignItems="center"
-                spacing={6}
+                spacing={1}
                 style={{ height: "400px" }}>
-                <Grid item xs={6} style={{ height: "50%" }}>
+                <Grid item xs={6} style={{ height: "60%" }}>
                     <Paper className={classes.contactPaper}>
                         <Typography className={classes.myHeader} variant="h5" component="h3">
                             My Contact Info:
@@ -47,7 +47,7 @@ const Contact = () => {
                         </Typography>
                     </Paper>
                 </Grid>
-                <Grid item xs={6} style={{ height: "50%" }}>
+                <Grid item xs={6} style={{ height: "60%" }}>
                     <Paper className={classes.contactPaper}>
                         <Typography className={classes.myHeader} variant="h5" component="h3">
                             My Links:

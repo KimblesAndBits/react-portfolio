@@ -23,7 +23,7 @@ function PageCards({ image, name, handlePageChange, time }) {
     const zoom = true;
 
     return (
-        <Grid item md={4} className="pages">
+        <Grid item sm={4} className="pages">
             <Zoom in={zoom} timeout={750} style={{ transitionDelay: time }}>
                 <CardMedia
                     className={classes.pageImage}
