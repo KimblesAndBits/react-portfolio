@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
         background: "#262626"
     },
     myText: {
-        fontSize: "1.25rem",
+        fontSize: "1rem",
         color: "#dcdcdc"
     },
     myLink: {
