@@ -43,7 +43,7 @@ const Contact = () => {
                             Email: dannykimble@me.com
                         </Typography>
                         <Typography className={classes.myText} component="p">
-                            Phone: (503) 740-4619
+                            Phone: (503) 765-5864‬
                         </Typography>
                     </Paper>
                 </Grid>
